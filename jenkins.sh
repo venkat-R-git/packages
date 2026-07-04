@@ -5,3 +5,6 @@ sudo yum upgrade
 sudo yum install java-21-amazon-corretto -y
 sudo yum install jenkins
 sudo systemctl daemon-reload
+systemctl start jenkins.service
+systemctl status jenkins.service
+
